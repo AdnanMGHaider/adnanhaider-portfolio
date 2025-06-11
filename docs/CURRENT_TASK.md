@@ -1,3 +1,3 @@
 # Current task
 
-M1-P2: Scaffold Next.js 15 project using create-next-app
+M2-P1: Install `next-themes` and wrap `RootLayout` with a ThemeProvider
