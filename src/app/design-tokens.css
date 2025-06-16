@@ -1,0 +1,11 @@
+:root {
+  /* Brand colours */
+  --color-brand-green: #84ff00;
+  --color-brand-yellow: #ffd93d;
+  --color-brand-orange: #ff6b35;
+  --color-accent-purple: #8b5cf6;
+
+  /* Sizing */
+  --radius-lg: 0.75rem; /* 12px */
+  --spacing-section: 4rem; /* 64px */
+}

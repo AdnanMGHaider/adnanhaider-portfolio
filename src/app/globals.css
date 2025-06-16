@@ -1,5 +1,39 @@
 @import "tailwindcss";
+@import "./design-tokens.css";
+
+@layer base {
+  html {
+    background-color: black;
+  }
+  body {
+    color: #f3ffe6;
+    font-family: var(--font-body), sans-serif;
+  }
+}
 
 .logo-font {
   font-family: var(--font-logo), cursive;
+}
+
+.header-font {
+  font-family: var(--font-header), sans-serif;
+}
+
+/* Custom scrollbar styles */
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--color-accent-purple);
+  border-radius: 6px;
+}
+html::-webkit-scrollbar-thumb:hover {
+  background: #a855f7;
+}
+html {
+  scrollbar-color: var(--color-accent-purple) transparent;
+  scrollbar-width: thin;
 }
