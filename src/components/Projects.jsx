@@ -31,6 +31,25 @@ export default function Projects() {
       status: 'LIVE',
     },
     {
+      title: 'Koobook – Recipe Finder',
+      description:
+        'Single-page React app for discovering 600k+ recipes by cuisine, keyword, or dietary preference. Features animated transitions, a responsive Swiper carousel, and powered by the Spoonacular API.',
+      tech: [
+        'React 17',
+        'React Router 6',
+        'CSS Modules',
+        'Framer Motion',
+        'Swiper.js',
+        'Spoonacular API',
+      ],
+      image: '/project-screenshots/kookbook-screenshot.png',
+      liveUrl: 'https://kookbook-recipe-finder.vercel.app/',
+      repoUrl: 'https://github.com/AdnanMGHaider/kookbook-recipe-finder',
+      color: 'from-cyan-500 to-indigo-500',
+      featured: false,
+      status: 'LIVE',
+    },
+    {
       title: 'ShopEase – Headless E-Commerce Platform',
       description:
         'Modular storefront with product catalogs, cart/checkout via Stripe, and admin dashboard for inventory and orders.',
